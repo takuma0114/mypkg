@@ -1,0 +1,32 @@
+[0.649s] Invoking command in '/home/takuma01/ros2_ws/src/mypkg': PYTHONPATH=/home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/takuma01/ros2_ws/src/mypkg/install/mypkg --record /home/takuma01/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.926s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.926s]   warnings.warn(
+[0.926s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.926s]   warnings.warn(
+[0.935s] running egg_info
+[0.935s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.936s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.936s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.936s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.936s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.938s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.938s] adding license file 'LICENSE'
+[0.939s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.939s] running build
+[0.939s] running build_py
+[0.940s] copying mypkg/listener.py -> /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.940s] running install
+[0.940s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.940s]   warnings.warn(
+[0.940s] running install_lib
+[0.941s] copying /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.942s] byte-compiling /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.942s] running install_data
+[0.943s] running install_egg_info
+[0.944s] removing '/home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.945s] Copying build/mypkg/mypkg.egg-info to /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.946s] running install_scripts
+[0.969s] Installing listener script to /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.969s] Installing talker script to /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.970s] writing list of installed files to '/home/takuma01/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.997s] Invoked command in '/home/takuma01/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/takuma01/ros2_ws/src/mypkg/install/mypkg --record /home/takuma01/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
