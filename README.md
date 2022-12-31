@@ -1,6 +1,6 @@
 ## ros2
 
-![test](https://github.com/takuma0114/ros2/actions/badge.svg)
+![test](https://github.com/takuma0114/ros2/actions/wolkflows/test.yml/badge.svg)
 
 ## インストール方法
 ```
