@@ -4,7 +4,7 @@
 
 ## インストール方法
 ```
-$ git clone https://github.com/takuma0114/robosys202x.git
+$ git clone https://github.com/takuma0114/ros2.git
 $ cd ros2_ws
 ```
 
