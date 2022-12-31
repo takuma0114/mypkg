@@ -1,0 +1,36 @@
+[0.637s] Invoking command in '/home/takuma01/ros2_ws/src/mypkg': PYTHONPATH=/home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/takuma01/ros2_ws/src/mypkg/install/mypkg --record /home/takuma01/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.877s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.877s]   warnings.warn(
+[0.878s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.878s]   warnings.warn(
+[0.886s] running egg_info
+[0.887s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.887s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.887s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.887s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.887s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.889s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.889s] adding license file 'LICENSE'
+[0.890s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.890s] running build
+[0.890s] running build_py
+[0.890s] copying mypkg/talker.py -> /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.890s] copying mypkg/listener.py -> /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.890s] running install
+[0.891s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.891s]   warnings.warn(
+[0.891s] running install_lib
+[0.891s] copying /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.892s] copying /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.892s] byte-compiling /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[0.893s] byte-compiling /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.893s] running install_data
+[0.894s] Sorry: IndentationError: unexpected indent (listener.py, line 13)
+[0.894s] running install_egg_info
+[0.895s] removing '/home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.895s] Copying build/mypkg/mypkg.egg-info to /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.896s] running install_scripts
+[0.919s] Installing listener script to /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.919s] Installing talker script to /home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.919s] writing list of installed files to '/home/takuma01/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.946s] Invoked command in '/home/takuma01/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/takuma01/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takuma01/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/takuma01/ros2_ws/src/mypkg/install/mypkg --record /home/takuma01/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
