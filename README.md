@@ -1,6 +1,6 @@
 ## ros2
 
-![tesst](https://github.com/takuma0114/robosys202x/actions/workflows/test.yml/badge.svg)
+![tesst](https://github.com/takuma0114/robosys202x/actions)
 
 ## インストール方法
 ```
