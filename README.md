@@ -14,6 +14,7 @@ listener.py（サブスクライバー）で受信してターミナルにカウ
 
 ## 使用方法および使用例1
 まず端末を2つ用意する。
+それぞれの端末に以下のコードを入力する。
 * 端末1（パブリッシャ）
 ```
 $ ros2 run mypkg talker
@@ -22,6 +23,7 @@ $ ros2 run mypkg talker
 ```
 $ ros2 topic echo /countup
 ```
+端末2に以下のように標準出力される。（一部表示）
 ```
 data: 11
 ---
@@ -33,6 +35,7 @@ data: 13
 
 ## 使用方法および使用例2
 まず端末を2つ用意する。
+それぞれの端末に以下のコードを入力する。
 * 端末1（パブリッシャ）
 ```
 $ ros2 run mypkg talker
@@ -41,6 +44,7 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
+端末2に以下のように標準出力される。（一部表示）
 ```
 [INFO] [1672490213.658525300] [listener]: Listen: 11
 [INFO] [1672490214.158737700] [listener]: Listen: 12
