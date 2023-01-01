@@ -1,4 +1,4 @@
-## mypkg
+## ros2_ws/src/mypkg
 
 ![tesst](https://github.com/takuma0114/ros2/actions/workflows/test.yml/badge.svg)
 
