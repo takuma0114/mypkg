@@ -1,10 +1,10 @@
-## ros2_ws/src/mypkg
+## mypkg
 
-![tesst](https://github.com/takuma0114/ros2/actions/workflows/test.yml/badge.svg)
+![tesst](https://github.com/takuma0114/mypkg/actions/workflows/test.yml/badge.svg)
 
 ## インストール方法
 ```
-$ git clone https://github.com/takuma0114/ros2.git
+$ git clone https://github.com/takuma0114/mypkg.git
 $ cd ros2_ws
 ```
 
