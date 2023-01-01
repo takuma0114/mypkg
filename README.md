@@ -1,4 +1,4 @@
-## ros2
+## mypkg
 
 ![tesst](https://github.com/takuma0114/ros2/actions/workflows/test.yml/badge.svg)
 
@@ -9,8 +9,8 @@ $ cd ros2_ws
 ```
 
 ## 内容
-talker.py（パブリッシャ）で0.5秒周期でカウントし送信、
-listener.py（サブスクライバー）で受信してターミナルにカウントを表示する。
+talker.pyというノードにパブリッシャを持たせて0.5秒周期でカウントし送信、
+listener.pyというノードにサブスクライバーを持たせて受信してターミナルにカウントを表示する。
 
 ## 使用方法および使用例1
 まず端末を2つ用意する。
@@ -52,7 +52,7 @@ $ ros2 run mypkg listener
 ```
 
 ## 必要なソフトウェア
-* python3.7～3.10
+* ROS2
  * テスト済み
 
 ## 動作確認済み環境
@@ -61,6 +61,6 @@ $ ros2 run mypkg listener
 ## 著作権とライセンスについて
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，教育目的で本人の許可を得て自身の著作としたものです。
-* https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
+    * https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
 * © 2022 Takuma Abe
 
