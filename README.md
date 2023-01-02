@@ -2,15 +2,9 @@
 
 ![tesst](https://github.com/takuma0114/mypkg/actions/workflows/test.yml/badge.svg)
 
-## インストール方法
-```
-$ git clone https://github.com/takuma0114/mypkg.git
-$ cd ros2_ws
-```
-
 ## 内容
-talker.pyというノードにパブリッシャを持たせて0.5秒周期でカウントし送信、
-listener.pyというノードにサブスクライバーを持たせて受信してターミナルにカウントを表示する。
+* talker.pyというノードにパブリッシャを持たせて0.5秒周期でカウントし送信、listener.pyというノードにサブスクライバーを持たせて受信してターミナルにカウントを表示する。
+* メッセージの型は16ビット符号付きの整数。
 
 ## 使用方法および使用例1
 まず端末を2つ用意する。
